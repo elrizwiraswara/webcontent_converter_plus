@@ -119,5 +119,3 @@ var executablePath = await ChromeDesktopDirectoryHelper.saveChromeFromAssetToApp
 WebViewHelper.customBrowserPath = [executablePath];
 await WebcontentConverter.ensureInitialized(executablePath: executablePath);
 ```
-
-![Invoice screenshot](screenshots/invoice.pdf?raw=true "Invoice")
